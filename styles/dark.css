@@ -1,15 +1,21 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --font-family: "IBM Plex mono", sans-serif;
+  --background-image: url(../images/cover-image-dark.png);
+  --text-size-medium: 18px;
+  --text-size-large: 157px;
+  --mb-text-size-medium: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --mb-text-size-large: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 
+  --primary-color: #000028; /* Основной цвет */
+  --accent-color: #ff0070; /* Акцентный цвет */
+  --secondary-color: #f1b2ce; /* Вторичный цвет */
+  --foreground-color: #db00ff; /* Цвет переднего плана */
+  --shadow-color: #ff0070;
+  --hover-color: rgba(255, 0, 112, 0.4);
+
+  --title-color: var(--accent-color);
+  --subtitle-color: var(--primary-color);
+  --decor-color: var(--accent-color);
+  --nav-color: var(--accent-color);
+  --link-shadow: 2px 2px var(--accent-color);
 }
-
-/* Остальные стили */ 

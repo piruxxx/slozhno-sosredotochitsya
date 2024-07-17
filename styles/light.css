@@ -1,11 +1,10 @@
 .page.theme_light {
   --background-image: url(../images/cover-image-light.png);
 
-  --primary-color: #FFF1F7; /* Основной цвет, например, фоновый */
-  --accent-color: #FF8DCB; /* Акцентный цвет, например, для кнопок и ссылок */
-  --secondary-color: #353430; /* Вторичный цвет, например, для подложек */
-  --foreground-color: #FFC2E6; /* Цвет переднего плана */
-  --shadow-color: #FF0070;
+  --primary-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --secondary-color: #353430;
+  --foreground-color: #ffc2e6;
   --hover-color: rgba(50, 49, 45, 0.4);
 
   --title-color: var(--secondary-color);
@@ -18,13 +17,19 @@
   display: none;
 }
 
-/* Остальные стили */
-
 @media (prefers-color-scheme: light) {
-
   :root {
+    --background-image: url(../images/cover-image-light.png);
 
-    }
+    --primary-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --secondary-color: #353430;
+    --foreground-color: #ffc2e6;
+    --hover-color: rgba(50, 49, 45, 0.4);
+
+    --title-color: var(--secondary-color);
+    --subtitle-color: var(--secondary-color);
+    --decor-color: var(--secondary-color);
+    --nav-color: var(--secondary-color);
+  }
 }
-
-/* Остальные стили */ 
