@@ -11,10 +11,8 @@
   --subtitle-color: var(--secondary-color);
   --decor-color: var(--secondary-color);
   --nav-color: var(--secondary-color);
-}
 
-.page.theme_light .header__rec {
-  display: none;
+  --visibility-rec: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,5 +29,7 @@
     --subtitle-color: var(--secondary-color);
     --decor-color: var(--secondary-color);
     --nav-color: var(--secondary-color);
+
+    --visibility-rec: none;
   }
 }

@@ -18,4 +18,6 @@
   --decor-color: var(--accent-color);
   --nav-color: var(--accent-color);
   --link-shadow: 2px 2px var(--accent-color);
+
+  --visibility-rec: flex;
 }
